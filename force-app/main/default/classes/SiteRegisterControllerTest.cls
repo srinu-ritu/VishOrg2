@@ -13,5 +13,6 @@
         controller.password = 'abcd1234';
         controller.confirmPassword = 'abcd123';
         System.assert(controller.registerUser() == null);  
+        //sk
     }
 }
