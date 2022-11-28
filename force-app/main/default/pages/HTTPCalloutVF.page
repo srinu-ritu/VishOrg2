@@ -1,0 +1,14 @@
+<apex:page controller="HttpCalloutClass">
+    <h1>
+        Configurations. This is your new VF page
+    </h1>
+    <apex:form >
+    <apex:commandButton value="Submit" action="{!doRun}"/>
+        <br/><br/>
+        {!responseResult}
+
+    
+    </apex:form>
+    
+    
+</apex:page>

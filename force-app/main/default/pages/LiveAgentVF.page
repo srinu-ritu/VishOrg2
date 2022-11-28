@@ -1,0 +1,17 @@
+<apex:page lightningStylesheets="true" >
+<!-- Code Copied from Button Configuration -->
+<img id="liveagent_button_online_5732v00000096hJ" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('5732v00000096hJ')" src="https://botchecksk-developer-edition.ap15.force.com/sk/resource/1568172731000/APXTConga4__sertifi" /><img id="liveagent_button_offline_5732v00000096hJ" style="display: none; border: 0px none; " src="https://botchecksk-developer-edition.ap15.force.com/sk/resource/1568172731000/APXTConga4__VidImage" />
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('5732v00000096hJ', document.getElementById('liveagent_button_online_5732v00000096hJ'));
+liveagent.showWhenOffline('5732v00000096hJ', document.getElementById('liveagent_button_offline_5732v00000096hJ'));
+});</script>
+
+<!-- Code Copied from Deployment -->
+<script type='text/javascript' src='https://c.la1-c1-hnd.salesforceliveagent.com/content/g/js/46.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la1-c1-hnd.salesforceliveagent.com/chat', '5722v000000DHjh', '00D2v000001vHil');
+</script>
+
+Live Agent - Service Console Applications
+</apex:page>

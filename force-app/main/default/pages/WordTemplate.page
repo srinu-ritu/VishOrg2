@@ -1,0 +1,120 @@
+<apex:page standardController="Quote" contentType="application/msword#sfdcsriniquotes.doc" cache="true">
+
+<html xmlns:w="urn:schemas-microsoft-com:office:word">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<body>
+<apex:outputText title="Welcome to word" value="{!$User.FirstName}"/>
+<br/>
+    <b>QUOTES INFROMATION</b>
+
+<br/>
+<apex:pageBlock >
+<div style="text-align:left" >
+  <table width="0" border="1">
+<tbody>
+<tr >
+<td >
+<p><strong>Company:</strong></p>
+</td>
+<td >
+<p>&laquo;CONTACT_ACCOUNT&raquo;</p>
+</td>
+<td >
+<p><strong>Estimate Date:</strong></p>
+</td>
+<td >
+<p>&laquo;QUOTE_QUOTEDATE&raquo;</p>
+</td>
+</tr>
+<tr>
+<td >
+<p><strong>Attn:</strong></p>
+</td>
+<td >
+<p>&laquo;CONTACT_NAME&raquo;</p>
+</td>
+<td >
+<p><strong>Record Number:</strong></p>
+</td>
+<td >
+<p>&laquo;QUOTE_NUMBER&raquo; &laquo;VERSION&raquo;</p>
+</td>
+</tr>
+<tr>
+<td >
+<p><strong>Email:</strong></p>
+</td>
+<td >
+<p>&laquo;QUOTE_EMAIL&raquo;</p>
+</td>
+<td >
+<p><strong>Created By:</strong></p>
+</td>
+<td >
+<p>&laquo;OPPORTUNITYOWNER&raquo;</p>
+</td>
+</tr>
+<tr>
+<td >
+<p><strong>Project:</strong></p>
+</td>
+<td >
+<p>&laquo;OPPORTUNITY_NAME&raquo;</p>
+</td>
+<td >
+<p><strong>FOB Shipping Point:</strong></p>
+</td>
+<td >
+<p>&laquo;QUOTE_FOBPLANT&raquo;</p>
+</td>
+</tr>
+<tr>
+<td >
+<p><strong>Location:</strong></p>
+</td>
+<td >
+<p>&laquo;OPPORTUNITY_QUOTECITYSTATE&raquo;</p>
+</td>
+<td >
+<p><strong>&nbsp;</strong></p>
+</td>
+<td >
+<p>&nbsp;</p>
+</td>
+</tr>
+
+</tbody>
+</table>  
+
+<table border="1">
+<tbody>
+<tr style="background-color: green;" >
+<td>PRODUCT</td>
+<td>DESCRIPTION</td>
+<td>UNITS PER PALLET</td>
+<td>DISTRIBUTOR LIST PRICE</td>
+<td>SPECIAL PRICE</td>
+<td>DISTRIBUTOR LIST PRICE DISCOUNT %</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>    
+<b>Quote Name :</b><apex:outputText value="{!quote.name}"/><br/>
+<b>Quote Number: </b><apex:outputText value="{!quote.QuoteNumber}"/><br/>
+<b>Quote Status: </b><apex:outputText value="{!quote.Status}"/><br/>
+<b>Address: </b><apex:outputText value="{!quote.ShippingName}"/><br/>
+    
+</div>            
+</apex:pageBlock>
+</body>
+</html>
+
+
+</apex:page>

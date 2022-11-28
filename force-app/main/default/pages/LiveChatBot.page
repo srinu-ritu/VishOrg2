@@ -1,0 +1,16 @@
+<apex:page lightningStylesheets="true">
+<!-- Code Copied from Button Configuration -->
+<a id="liveagent_button_online_5732v0000004pve" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732v0000004pve')"><button type="button">Online</button></a><div id="liveagent_button_offline_5732v0000004pve" style="display: none;">Offline</div><script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('5732v0000004pve', document.getElementById('liveagent_button_online_5732v0000004pve'));
+liveagent.showWhenOffline('5732v0000004pve', document.getElementById('liveagent_button_offline_5732v0000004pve'));
+});</script>
+
+<!-- Code Copied from Deployment -->
+<script type='text/javascript' src='https://c.la1-c1-hnd.salesforceliveagent.com/content/g/js/46.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la1-c1-hnd.salesforceliveagent.com/chat', '5722v0000004olD', '00D2v000001vHil');
+</script>
+
+
+</apex:page>
